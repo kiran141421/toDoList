@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 mongoose.set('strictQuery', false);
 
-const server=precoess.env.SERVER;
+const server=process.env.SERVER;
 mongoose.connect(server,{useNewUrlParser: true});
 
 const itemsSchema={
