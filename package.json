@@ -6,14 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "kiran",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiran141421/toDoList.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiran141421/toDoList/issues"
+  },
+  "homepage": "https://github.com/kiran141421/toDoList#readme",
   "dependencies": {
-    "body-parser": "^1.20.1",
+    "body-parser": "^1.20.2",
     "dotenv": "^16.0.3",
-    "ejs": "^3.1.8",
     "express": "^4.18.2",
     "lodash": "^4.17.21",
-    "mongoose": "^6.10.0"
+    "mongoose": "^7.0.2"
   }
 }
